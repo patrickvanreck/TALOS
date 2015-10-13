@@ -12,10 +12,10 @@ Building a module or repackaging existing code into one is made quite easy in MA
 ### Meta section
 Your module must contain a meta variable \(a python dictionary type variable in the root scope of your module.\)
 Here are the currently supported keys \(and their type\).
-+ author -- <string>
-+ ported_by -- <string>
-+ version -- <string>
-+ info -- <string>
++ author -- \<string\>
++ ported_by -- \<string\>
++ version -- \<string\>
++ info -- \<string\>
 
 You are going to need these four items in your module's meta string in order to make sure it runs properly.
 The info string is very important.  As it should contain all the information a new user will need to know about your module upon first viewing it.  This is the string that is read to the user when they run the command `help <module>` with <module> = your module's name.
